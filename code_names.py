@@ -35,7 +35,7 @@ def placeColors():
     x_blue,y_blue = zip(*blue)
     x_red,y_red = zip(*red)
 
-    plt.scatter(x_grey,y_grey, s = 2400, c ='SandyBrown')
+    plt.scatter(x_grey,y_grey, s = 2400, c ='grey')
     plt.scatter(x_black,y_black, s = 2400, c ='black')
     # plt.scatter(x_blue,y_blue, s = 2400, c ='MediumSeaGreen')
     plt.scatter(x_blue,y_blue, s = 2400, c ='blue')
